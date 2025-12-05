@@ -7,4 +7,4 @@ nav:
   - Minima: ejercicio1.md
   - lagrange: ejercicio2.md
   - P-Resume: ejercicio3.md
-theme: readthedocs  # o 'material' si instalas mkdocs-material
+theme: material  # o 'material' si instalas mkdocs-material
