@@ -1,11 +1,11 @@
 # Ejercicio 3 – Tema Jekyll “Professional-resume” usando Fork  
-# Despliegue en GitHub Pages
+## Despliegue en GitHub Pages
 
 En este documento explico los pasos que he seguido para **importar, configurar y desplegar** el tema **Lagrange**, utilizando el método recomendado: **Fork del repositorio original**.
 
 ---
 
-# 1. Realizar el Fork del tema Profesional resume
+## 1. Realizar el Fork del tema Profesional resume
 
 1. Busqué el repositorio oficial del tema en GitHub:  
    `https://github.com/byanko55/jekyll-professional-resume`.
@@ -17,7 +17,7 @@ En este documento explico los pasos que he seguido para **importar, configurar y
 
 ---
 
-# 2. Clonar el repositorio
+## 2. Clonar el repositorio
 
 En mi máquina local Debian ejecuté:
 
@@ -30,7 +30,7 @@ cd professional-resume
 
 ---
 
-# 3. Instalar dependencias
+## 3. Instalar dependencias
 
 Instalé Jekyll y Bundler si no estaban instalados:
 
@@ -48,7 +48,7 @@ bundle install
 
 ---
 
-# 4. Ejecutar Jekyll en local
+## 4. Ejecutar Jekyll en local
 
 Probé el sitio con:
 
@@ -67,7 +67,7 @@ http://localhost:4000
 
 ---
 
-# 5. Configuración del archivo `_config.yml`
+## 5. Configuración del archivo `_config.yml`
 
 Personalicé los valores principales:
 
@@ -84,14 +84,14 @@ baseurl: "/lagrange"
 
 ---
 
-# 6. Personalización del sitio
+## 6. Personalización del sitio
 
 La página es una página portfolio osea que voy a cambiar toda la información
 He ido cambiando toda la información
 
 [](img/img-ej3/6.png)
 
-# 7. Desplegar el sitio en netlify
+## 7. Desplegar el sitio en netlify
 
 Primero hago un push para actualizar todo lo hecho localmente y tambien voy a hacer un despliege en local para ver como queda la página.
 
