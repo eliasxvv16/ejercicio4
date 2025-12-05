@@ -1,5 +1,5 @@
 # Ejercicio 2 – Tema Jekyll “Lagrange” usando Fork  
-## Despliegue en GitHub Pages
+# Despliegue en GitHub Pages
 
 En este documento explico los pasos que he seguido para **importar, configurar y desplegar** el tema **Lagrange**, utilizando el método recomendado: **Fork del repositorio original**.
 

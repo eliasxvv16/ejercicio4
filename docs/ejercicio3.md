@@ -1,11 +1,11 @@
 # Ejercicio 3 – Tema Jekyll “Professional-resume” usando Fork  
-## Despliegue en GitHub Pages
+# Despliegue en GitHub Pages
 
 En este documento explico los pasos que he seguido para **importar, configurar y desplegar** el tema **Lagrange**, utilizando el método recomendado: **Fork del repositorio original**.
 
 ---
 
-# 1. Realizar el Fork del tema Particle
+# 1. Realizar el Fork del tema Profesional resume
 
 1. Busqué el repositorio oficial del tema en GitHub:  
    `https://github.com/byanko55/jekyll-professional-resume`.
