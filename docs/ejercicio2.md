@@ -5,7 +5,7 @@ En este documento explico los pasos que he seguido para **importar, configurar y
 
 ---
 
-# 1. Realizar el Fork del tema Lagrange
+# 1. Realizar el Forkk del tema Lagrange
 
 1. Busqué el repositorio oficial del tema en GitHub:  
    `Lagrange Jekyll theme`.
