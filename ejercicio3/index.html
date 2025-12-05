@@ -54,6 +54,22 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">P-Resume</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#despliegue-en-github-pages">Despliegue en GitHub Pages</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#1-realizar-el-fork-del-tema-profesional-resume">1. Realizar el Fork del tema Profesional resume</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-clonar-el-repositorio">2. Clonar el repositorio</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3-instalar-dependencias">3. Instalar dependencias</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#4-ejecutar-jekyll-en-local">4. Ejecutar Jekyll en local</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#5-configuracion-del-archivo-_configyml">5. Configuración del archivo _config.yml</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#6-personalizacion-del-sitio">6. Personalización del sitio</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#7-desplegar-el-sitio-en-netlify">7. Desplegar el sitio en netlify</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -81,10 +97,10 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="ejercicio-3-tema-jekyll-professional-resume-usando-fork">Ejercicio 3 – Tema Jekyll “Professional-resume” usando Fork</h1>
-<h1 id="despliegue-en-github-pages">Despliegue en GitHub Pages</h1>
+<h2 id="despliegue-en-github-pages">Despliegue en GitHub Pages</h2>
 <p>En este documento explico los pasos que he seguido para <strong>importar, configurar y desplegar</strong> el tema <strong>Lagrange</strong>, utilizando el método recomendado: <strong>Fork del repositorio original</strong>.</p>
 <hr />
-<h1 id="1-realizar-el-fork-del-tema-profesional-resume">1. Realizar el Fork del tema Profesional resume</h1>
+<h2 id="1-realizar-el-fork-del-tema-profesional-resume">1. Realizar el Fork del tema Profesional resume</h2>
 <ol>
 <li>Busqué el repositorio oficial del tema en GitHub:<br />
 <code>https://github.com/byanko55/jekyll-professional-resume</code>.</li>
@@ -94,14 +110,14 @@
 </ol>
 <p><a href="../img/img-ej3/1.png"></a></p>
 <hr />
-<h1 id="2-clonar-el-repositorio">2. Clonar el repositorio</h1>
+<h2 id="2-clonar-el-repositorio">2. Clonar el repositorio</h2>
 <p>En mi máquina local Debian ejecuté:</p>
 <pre><code class="language-bash">git clone https://github.com/eliasxvv16/portfolio.git
 cd professional-resume
 </code></pre>
 <p><a href="../img/img-ej3/2.png"></a></p>
 <hr />
-<h1 id="3-instalar-dependencias">3. Instalar dependencias</h1>
+<h2 id="3-instalar-dependencias">3. Instalar dependencias</h2>
 <p>Instalé Jekyll y Bundler si no estaban instalados:</p>
 <pre><code class="language-bash">gem install jekyll bundler
 </code></pre>
@@ -110,7 +126,7 @@ cd professional-resume
 </code></pre>
 <p><a href="../img/img-ej3/3.png"></a></p>
 <hr />
-<h1 id="4-ejecutar-jekyll-en-local">4. Ejecutar Jekyll en local</h1>
+<h2 id="4-ejecutar-jekyll-en-local">4. Ejecutar Jekyll en local</h2>
 <p>Probé el sitio con:</p>
 <pre><code class="language-bash">bundle exec jekyll serve
 </code></pre>
@@ -120,7 +136,7 @@ cd professional-resume
 <p><a href="../img/img-ej2/4.png"></a>
 <a href="../img/img-ej2/5.png"></a></p>
 <hr />
-<h1 id="5-configuracion-del-archivo-_configyml">5. Configuración del archivo <code>_config.yml</code></h1>
+<h2 id="5-configuracion-del-archivo-_configyml">5. Configuración del archivo <code>_config.yml</code></h2>
 <p>Personalicé los valores principales:</p>
 <pre><code class="language-yaml">title: &quot;Mi Blog con Lagrange&quot;
 author: &quot;Mi Nombre y Apellidos&quot;
@@ -131,11 +147,11 @@ baseurl: &quot;/lagrange&quot;
 </code></pre>
 <p>(Imagen: Contenido del _config.yml)</p>
 <hr />
-<h1 id="6-personalizacion-del-sitio">6. Personalización del sitio</h1>
+<h2 id="6-personalizacion-del-sitio">6. Personalización del sitio</h2>
 <p>La página es una página portfolio osea que voy a cambiar toda la información
 He ido cambiando toda la información</p>
 <p><a href="../img/img-ej3/6.png"></a></p>
-<h1 id="7-desplegar-el-sitio-en-netlify">7. Desplegar el sitio en netlify</h1>
+<h2 id="7-desplegar-el-sitio-en-netlify">7. Desplegar el sitio en netlify</h2>
 <p>Primero hago un push para actualizar todo lo hecho localmente y tambien voy a hacer un despliege en local para ver como queda la página.</p>
 <p><a href="../img/img-ej3/7.png"></a></p>
 <p>Ahora Despues de crear un cuenta en netlify le damos a deploy y seleccionamos el repositorio de la página</p>
