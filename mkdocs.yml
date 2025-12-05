@@ -1,5 +1,6 @@
 site_name: Mkdocs Elias
 site_url: https://eliasxvv16.github.io/ejercicio4/
+docs_dir: docs
 site_dir: site
 
 nav:
@@ -7,4 +8,4 @@ nav:
   - Minima: ejercicio1.md
   - lagrange: ejercicio2.md
   - P-Resume: ejercicio3.md
-theme: material  # o 'material' si instalas mkdocs-material
+theme: readthedocs  # o 'material' si instalas mkdocs-material
