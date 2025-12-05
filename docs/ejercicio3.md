@@ -13,7 +13,7 @@ En este documento explico los pasos que he seguido para **importar, configurar y
 3. Se creó una copia del repositorio en mi cuenta de GitHub:  
    `https://github.com/eliasxvv16/professional-resume`
 
-[](/img/img-ej3/1.png)
+[](img/img-ej3/1.png)
 
 ---
 
@@ -26,7 +26,7 @@ git clone https://github.com/eliasxvv16/portfolio.git
 cd professional-resume
 ```
 
-[](/img/img-ej3/2.png/)
+[](img/img-ej3/2.png/)
 
 ---
 
@@ -44,7 +44,7 @@ Luego instalé las dependencias del tema:
 bundle install
 ```
 
-[](/img/img-ej3/3.png)
+[](img/img-ej3/3.png)
 
 ---
 
@@ -62,8 +62,8 @@ Navegué a:
 http://localhost:4000
 ```
 
-[](/img-ej2/4.png)
-[](/img-ej2/5.png)
+[](img/img-ej2/4.png)
+[](img/img-ej2/5.png)
 
 ---
 
@@ -89,22 +89,22 @@ baseurl: "/lagrange"
 La página es una página portfolio osea que voy a cambiar toda la información
 He ido cambiando toda la información
 
-[](/img/img-ej3/6.png)
+[](img/img-ej3/6.png)
 
 # 7. Desplegar el sitio en netlify
 
 Primero hago un push para actualizar todo lo hecho localmente y tambien voy a hacer un despliege en local para ver como queda la página.
 
-[](/img/img-ej3/7.png)
+[](img/img-ej3/7.png)
 
 Ahora Despues de crear un cuenta en netlify le damos a deploy y seleccionamos el repositorio de la página
 
-[](/img/img-ej3/8.png)
+[](img/img-ej3/8.png)
 
 Netlify nos va ejecutar automaticamente el jekyll build si no tenemos la carpeta _Site
 
-[](/img/img-ej3/9.png)
+[](img/img-ej3/9.png)
 
 Captura del sitio desplegado
 
-[](/img/img-ej3/10.png)
+[](img/img-ej3/10.png)

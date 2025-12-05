@@ -13,7 +13,7 @@ En este documento explico los pasos que he seguido para **importar, configurar y
 3. Se creó una copia del repositorio en mi cuenta de GitHub:  
    `https://github.com/eliasxvv16/lagrange`
 
-[](/img/img-ej2/1.png)
+[](img/img-ej2/1.png)
 
 ---
 
@@ -26,7 +26,7 @@ git clone https://github.com/mi_usuario/lagrange
 cd lagrange
 ```
 
-[](/img/img-ej2/2.png)
+[](img/img-ej2/2.png)
 
 ---
 
@@ -44,7 +44,7 @@ Luego instalé las dependencias del tema:
 bundle install
 ```
 
-[](/img/img-ej2/3.png)
+[](img/img-ej2/3.png)
 
 ---
 
@@ -62,8 +62,8 @@ Navegué a:
 http://localhost:4000
 ```
 
-[](/img/img-ej2/4.png)
-[](/img/img-ej2/5.png)
+[](img/img-ej2/4.png)
+[](img/img-ej2/5.png)
 
 ---
 
@@ -100,7 +100,7 @@ author: "Mi Nombre"
 Contenido del post...
 ```
 
-[](/img/img-ej2/6.png)
+[](img/img-ej2/6.png)
 
 ---
 
@@ -112,7 +112,7 @@ git commit -m "Configuración inicial del tema Lagrange"
 git push 
 ```
 
-[](/img/img-ej2/7.png)
+[](img/img-ej2/7.png)
 
 ---
 
@@ -134,7 +134,7 @@ URL final del sitio:
 https://eliasxvv.github.io/lagrange/
 ```
 
-[](/img/img-ej2/8.png)
+[](img/img-ej2/8.png)
 
 ---
 
@@ -148,7 +148,7 @@ Probé la URL y verifiqué:
 - Mi nombre como autor  
 - Imágenes funcionando  
 
-[](/img/img-ej2/9.png)
+[](img/img-ej2/9.png)
 
 ---
 
