@@ -19,8 +19,8 @@ jekyll new . --force
 Se crea la estructura base del proyecto Jekyll dentro del directorio myblog2.
 Esto incluye los archivos principales como _config.yml, index.markdown, la carpeta _posts, etc.
 
-📸 Captura:
-[](img/img-ej1/1.png)
+📸 Captura
+![](img/img-ej1/1.png)
 
 ## 2. Personalización del archivo _config.yml
 
