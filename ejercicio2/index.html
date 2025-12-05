@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://eliasxvv16.github.io/ejercicio4/ejercicio2/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>lagrange - Documentación eliasxvv16</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "lagrange";
+        var mkdocs_page_input_path = "ejercicio2.md";
+        var mkdocs_page_url = "/ejercicio4/ejercicio2/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentación eliasxvv16
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Inicio</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ejercicio1/">Minima</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">lagrange</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#despliegue-en-github-pages">Despliegue en GitHub Pages</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ejercicio3/">Satelite</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentación eliasxvv16</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">lagrange</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="ejercicio-2-tema-jekyll-lagrange-usando-fork">Ejercicio 2 – Tema Jekyll “Lagrange” usando Fork</h1>
+<h2 id="despliegue-en-github-pages">Despliegue en GitHub Pages</h2>
+<p>En este documento explico los pasos que he seguido para <strong>importar, configurar y desplegar</strong> el tema <strong>Lagrange</strong>, utilizando el método recomendado: <strong>Fork del repositorio original</strong>.</p>
+<hr />
+<h1 id="1-realizar-el-fork-del-tema-lagrange">1. Realizar el Fork del tema Lagrange</h1>
+<ol>
+<li>Busqué el repositorio oficial del tema en GitHub:<br />
+<code>Lagrange Jekyll theme</code>.</li>
+<li>Accedí al repositorio y pulsé el botón <strong>Fork</strong>.</li>
+<li>Se creó una copia del repositorio en mi cuenta de GitHub:<br />
+<code>https://github.com/eliasxvv16/lagrange</code></li>
+</ol>
+<p><a href="/img/img-ej2/1.png"></a></p>
+<hr />
+<h1 id="2-clonar-el-repositorio">2. Clonar el repositorio</h1>
+<p>En mi máquina local Debian ejecuté:</p>
+<pre><code class="language-bash">git clone https://github.com/mi_usuario/lagrange
+cd lagrange
+</code></pre>
+<p><a href="/img/img-ej2/2.png"></a></p>
+<hr />
+<h1 id="3-instalar-dependencias">3. Instalar dependencias</h1>
+<p>Instalé Jekyll y Bundler si no estaban instalados:</p>
+<pre><code class="language-bash">gem install jekyll bundler
+</code></pre>
+<p>Luego instalé las dependencias del tema:</p>
+<pre><code class="language-bash">bundle install
+</code></pre>
+<p><a href="/img/img-ej2/3.png"></a></p>
+<hr />
+<h1 id="4-ejecutar-jekyll-en-local">4. Ejecutar Jekyll en local</h1>
+<p>Probé el sitio con:</p>
+<pre><code class="language-bash">bundle exec jekyll serve
+</code></pre>
+<p>Navegué a:</p>
+<pre><code>http://localhost:4000
+</code></pre>
+<p><a href="/img/img-ej2/4.png"></a>
+<a href="/img/img-ej2/5.png"></a></p>
+<hr />
+<h1 id="5-configuracion-del-archivo-_configyml">5. Configuración del archivo <code>_config.yml</code></h1>
+<p>Personalicé los valores principales:</p>
+<pre><code class="language-yaml">title: &quot;Mi Blog con Lagrange&quot;
+author: &quot;Mi Nombre y Apellidos&quot;
+email: &quot;miemail@example.com&quot;
+description: &quot;Blog creado con el tema Lagrange&quot;
+url: &quot;https://mi_usuario.github.io&quot;
+baseurl: &quot;/lagrange&quot;
+</code></pre>
+<p>(Imagen: Contenido del _config.yml)</p>
+<hr />
+<h1 id="6-personalizacion-del-sitio-y-creacion-de-publicaciones-posts">6. Personalización del sitio y Creación de publicaciones (posts)</h1>
+<p>Para personalizar el sitio y crear posts en la carpeta <code>_posts</code> añadimos <strong>publicaciones</strong> ahí:</p>
+<p>He modificado y he creado nuevos posts..
+ejemplos:</p>
+<pre><code class="language-markdown">---
+layout: post
+title: &quot;Mi primer post con Lagrange&quot;
+author: &quot;Mi Nombre&quot;
+---
+Contenido del post...
+</code></pre>
+<p><a href="/img/img-ej2/6.png"></a></p>
+<hr />
+<h1 id="8-subir-el-sitio-a-github">8. Subir el sitio a GitHub</h1>
+<pre><code class="language-bash">git add .
+git commit -m &quot;Configuración inicial del tema Lagrange&quot;
+git push 
+</code></pre>
+<p><a href="/img/img-ej2/7.png"></a></p>
+<hr />
+<h1 id="9-activar-github-pages">9. Activar GitHub Pages</h1>
+<p>Entré en:</p>
+<p><strong>Settings → Pages</strong></p>
+<p>Configuré:</p>
+<ul>
+<li>Source: <strong>Deploy from a branch</strong></li>
+<li>Branch: <strong>main</strong></li>
+<li>Folder: <strong>/</strong> (root)</li>
+</ul>
+<p>URL final del sitio:</p>
+<pre><code>https://eliasxvv.github.io/lagrange/
+</code></pre>
+<p><a href="/img/img-ej2/8.png"></a></p>
+<hr />
+<h1 id="10-comprobacion-del-sitio-publicado">10. Comprobación del sitio publicado</h1>
+<p>Probé la URL y verifiqué:</p>
+<ul>
+<li>Página principal personalizada  </li>
+<li>Nueva página  </li>
+<li>3 publicaciones  </li>
+<li>Mi nombre como autor  </li>
+<li>Imágenes funcionando  </li>
+</ul>
+<p><a href="/img/img-ej2/9.png"></a></p>
+<hr />
+<h1 id="resultado-final">✔ Resultado final</h1>
+<p>El tema <strong>Lagrange</strong> ha sido correctamente configurado, personalizado y desplegado en GitHub Pages.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../ejercicio1/" class="btn btn-neutral float-left" title="Minima"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../ejercicio3/" class="btn btn-neutral float-right" title="Satelite">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../ejercicio1/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../ejercicio3/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
