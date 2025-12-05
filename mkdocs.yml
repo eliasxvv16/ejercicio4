@@ -1,6 +1,5 @@
 site_name: Mkdocs Elias
 site_url: https://eliasxvv16.github.io/ejercicio4/
-docs_dir: docs
 site_dir: site
 
 nav:
