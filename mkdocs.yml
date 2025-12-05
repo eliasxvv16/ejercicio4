@@ -1,11 +1,10 @@
-site_name: Documentación eliasxvv16
+site_name: Documentación Elias Halloumi El Amraoui
 site_url: https://eliasxvv16.github.io/ejercicio4/
-docs_dir: docs
-site_dir: site
+site_dir: /docs
 
 nav:
   - Inicio: index.md
   - Minima: ejercicio1.md
   - lagrange: ejercicio2.md
-  - Satelite: ejercicio3.md
+  - P-resume: ejercicio3.md
 theme: readthedocs  
