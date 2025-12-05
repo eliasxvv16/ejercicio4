@@ -1,11 +1,11 @@
 # Ejercicio 2 – Tema Jekyll “Lagrange” usando Fork  
-# Despliegue en GitHub Pages
+## Despliegue en GitHub Pages
 
 En este documento explico los pasos que he seguido para **importar, configurar y desplegar** el tema **Lagrange**, utilizando el método recomendado: **Fork del repositorio original**.
 
 ---
 
-# 1. Realizar el Forkk del tema Lagrange
+## 1. Realizar el Forkk del tema Lagrange
 
 1. Busqué el repositorio oficial del tema en GitHub:  
    `Lagrange Jekyll theme`.
@@ -17,7 +17,7 @@ En este documento explico los pasos que he seguido para **importar, configurar y
 
 ---
 
-# 2. Clonar el repositorio
+## 2. Clonar el repositorio
 
 En mi máquina local Debian ejecuté:
 
@@ -30,7 +30,7 @@ cd lagrange
 
 ---
 
-# 3. Instalar dependencias
+## 3. Instalar dependencias
 
 Instalé Jekyll y Bundler si no estaban instalados:
 
@@ -48,7 +48,7 @@ bundle install
 
 ---
 
-# 4. Ejecutar Jekyll en local
+## 4. Ejecutar Jekyll en local
 
 Probé el sitio con:
 
@@ -67,7 +67,7 @@ http://localhost:4000
 
 ---
 
-# 5. Configuración del archivo `_config.yml`
+## 5. Configuración del archivo `_config.yml`
 
 Personalicé los valores principales:
 
@@ -84,7 +84,7 @@ baseurl: "/lagrange"
 
 ---
 
-# 6. Personalización del sitio y Creación de publicaciones (posts)
+## 6. Personalización del sitio y Creación de publicaciones (posts)
 
 Para personalizar el sitio y crear posts en la carpeta `_posts` añadimos **publicaciones** ahí:
 
@@ -104,7 +104,7 @@ Contenido del post...
 
 ---
 
-# 8. Subir el sitio a GitHub
+## 8. Subir el sitio a GitHub
 
 ```bash
 git add .
@@ -116,7 +116,7 @@ git push
 
 ---
 
-# 9. Activar GitHub Pages
+## 9. Activar GitHub Pages
 
 Entré en:
 
@@ -138,7 +138,7 @@ https://eliasxvv.github.io/lagrange/
 
 ---
 
-# 10. Comprobación del sitio publicado
+## 10. Comprobación del sitio publicado
 
 Probé la URL y verifiqué:
 
@@ -152,6 +152,6 @@ Probé la URL y verifiqué:
 
 ---
 
-# ✔ Resultado final
+## ✔ Resultado final
 
 El tema **Lagrange** ha sido correctamente configurado, personalizado y desplegado en GitHub Pages.
