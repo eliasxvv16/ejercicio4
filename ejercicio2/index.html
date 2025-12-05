@@ -50,6 +50,28 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">lagrange</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#despliegue-en-github-pages">Despliegue en GitHub Pages</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#1-realizar-el-forkk-del-tema-lagrange">1. Realizar el Forkk del tema Lagrange</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-clonar-el-repositorio">2. Clonar el repositorio</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3-instalar-dependencias">3. Instalar dependencias</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#4-ejecutar-jekyll-en-local">4. Ejecutar Jekyll en local</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#5-configuracion-del-archivo-_configyml">5. Configuración del archivo _config.yml</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#6-personalizacion-del-sitio-y-creacion-de-publicaciones-posts">6. Personalización del sitio y Creación de publicaciones (posts)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#8-subir-el-sitio-a-github">8. Subir el sitio a GitHub</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#9-activar-github-pages">9. Activar GitHub Pages</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#10-comprobacion-del-sitio-publicado">10. Comprobación del sitio publicado</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#resultado-final">✔ Resultado final</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -81,10 +103,10 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="ejercicio-2-tema-jekyll-lagrange-usando-fork">Ejercicio 2 – Tema Jekyll “Lagrange” usando Fork</h1>
-<h1 id="despliegue-en-github-pages">Despliegue en GitHub Pages</h1>
+<h2 id="despliegue-en-github-pages">Despliegue en GitHub Pages</h2>
 <p>En este documento explico los pasos que he seguido para <strong>importar, configurar y desplegar</strong> el tema <strong>Lagrange</strong>, utilizando el método recomendado: <strong>Fork del repositorio original</strong>.</p>
 <hr />
-<h1 id="1-realizar-el-forkk-del-tema-lagrange">1. Realizar el Forkk del tema Lagrange</h1>
+<h2 id="1-realizar-el-forkk-del-tema-lagrange">1. Realizar el Forkk del tema Lagrange</h2>
 <ol>
 <li>Busqué el repositorio oficial del tema en GitHub:<br />
 <code>Lagrange Jekyll theme</code>.</li>
@@ -94,14 +116,14 @@
 </ol>
 <p><a href="../img/img-ej2/1.png"></a></p>
 <hr />
-<h1 id="2-clonar-el-repositorio">2. Clonar el repositorio</h1>
+<h2 id="2-clonar-el-repositorio">2. Clonar el repositorio</h2>
 <p>En mi máquina local Debian ejecuté:</p>
 <pre><code class="language-bash">git clone https://github.com/mi_usuario/lagrange
 cd lagrange
 </code></pre>
 <p><a href="../img/img-ej2/2.png"></a></p>
 <hr />
-<h1 id="3-instalar-dependencias">3. Instalar dependencias</h1>
+<h2 id="3-instalar-dependencias">3. Instalar dependencias</h2>
 <p>Instalé Jekyll y Bundler si no estaban instalados:</p>
 <pre><code class="language-bash">gem install jekyll bundler
 </code></pre>
@@ -110,7 +132,7 @@ cd lagrange
 </code></pre>
 <p><a href="../img/img-ej2/3.png"></a></p>
 <hr />
-<h1 id="4-ejecutar-jekyll-en-local">4. Ejecutar Jekyll en local</h1>
+<h2 id="4-ejecutar-jekyll-en-local">4. Ejecutar Jekyll en local</h2>
 <p>Probé el sitio con:</p>
 <pre><code class="language-bash">bundle exec jekyll serve
 </code></pre>
@@ -120,7 +142,7 @@ cd lagrange
 <p><a href="../img/img-ej2/4.png"></a>
 <a href="../img/img-ej2/5.png"></a></p>
 <hr />
-<h1 id="5-configuracion-del-archivo-_configyml">5. Configuración del archivo <code>_config.yml</code></h1>
+<h2 id="5-configuracion-del-archivo-_configyml">5. Configuración del archivo <code>_config.yml</code></h2>
 <p>Personalicé los valores principales:</p>
 <pre><code class="language-yaml">title: &quot;Mi Blog con Lagrange&quot;
 author: &quot;Mi Nombre y Apellidos&quot;
@@ -131,7 +153,7 @@ baseurl: &quot;/lagrange&quot;
 </code></pre>
 <p>(Imagen: Contenido del _config.yml)</p>
 <hr />
-<h1 id="6-personalizacion-del-sitio-y-creacion-de-publicaciones-posts">6. Personalización del sitio y Creación de publicaciones (posts)</h1>
+<h2 id="6-personalizacion-del-sitio-y-creacion-de-publicaciones-posts">6. Personalización del sitio y Creación de publicaciones (posts)</h2>
 <p>Para personalizar el sitio y crear posts en la carpeta <code>_posts</code> añadimos <strong>publicaciones</strong> ahí:</p>
 <p>He modificado y he creado nuevos posts..
 ejemplos:</p>
@@ -144,14 +166,14 @@ Contenido del post...
 </code></pre>
 <p><a href="../img/img-ej2/6.png"></a></p>
 <hr />
-<h1 id="8-subir-el-sitio-a-github">8. Subir el sitio a GitHub</h1>
+<h2 id="8-subir-el-sitio-a-github">8. Subir el sitio a GitHub</h2>
 <pre><code class="language-bash">git add .
 git commit -m &quot;Configuración inicial del tema Lagrange&quot;
 git push 
 </code></pre>
 <p><a href="../img/img-ej2/7.png"></a></p>
 <hr />
-<h1 id="9-activar-github-pages">9. Activar GitHub Pages</h1>
+<h2 id="9-activar-github-pages">9. Activar GitHub Pages</h2>
 <p>Entré en:</p>
 <p><strong>Settings → Pages</strong></p>
 <p>Configuré:</p>
@@ -165,7 +187,7 @@ git push
 </code></pre>
 <p><a href="../img/img-ej2/8.png"></a></p>
 <hr />
-<h1 id="10-comprobacion-del-sitio-publicado">10. Comprobación del sitio publicado</h1>
+<h2 id="10-comprobacion-del-sitio-publicado">10. Comprobación del sitio publicado</h2>
 <p>Probé la URL y verifiqué:</p>
 <ul>
 <li>Página principal personalizada  </li>
@@ -176,7 +198,7 @@ git push
 </ul>
 <p><a href="../img/img-ej2/9.png"></a></p>
 <hr />
-<h1 id="resultado-final">✔ Resultado final</h1>
+<h2 id="resultado-final">✔ Resultado final</h2>
 <p>El tema <strong>Lagrange</strong> ha sido correctamente configurado, personalizado y desplegado en GitHub Pages.</p>
               
             </div>
