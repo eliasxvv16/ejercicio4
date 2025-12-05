@@ -20,7 +20,7 @@ Se crea la estructura base del proyecto Jekyll dentro del directorio myblog2.
 Esto incluye los archivos principales como _config.yml, index.markdown, la carpeta _posts, etc.
 
 📸 Captura:
-[](img/img-ej1/1.png)
+[](img/img-!ej1/1.png)
 
 ## 2. Personalización del archivo _config.yml
 
@@ -28,14 +28,14 @@ Se personaliza la configuración del sitio con información básica: título, de
 
 Contenido Modificado:
 
-[](img/img-ej1/2.png)
+![](img/img-ej1/2.png)
 
 ## 3. Modificación de la página de inicio (index.markdown)
 
 Se edita el archivo index.markdown para incluir un título y un texto de bienvenida en formato Markdown.
 
 Contenido añadido:
-[](img/img-ej1/3.png)
+[](img/img-ej1/3.p!ng)
 
 ## 4. Edición de about.markdown
 
@@ -43,28 +43,28 @@ Objetivo: Personalizar la página “Acerca de” para incluir información pers
 
 Contenido añadido:
 
-[](img/img-ej1/4.png)
+![](img/img-ej1/4.png)
 
 ## 5. Creación de la página `cv.md`
 Creamos el fichero `cv.md` y añadimos contenido.
 
 Contenido:
-[](img/img-ej1/5.png)
+[](img/img!-ej1/5.png)
 
 ## 6. Creación de 3 publicaciónes (Post)
 Todos los posts que se van ir creando se crearan en la carpeta _posts y es muy recomendado establecer un patrón de nombrado para tenerlos organizados.
 
 Primer Post:
 
-[](img/img-ej1/6.png)
+![](img/img-ej1/6.png)
 
 Segundo Post:
 
-[](img/img-ej1/7.png)
+![](img/img-ej1/7.png)
 
 Tercer Post:
 
-[](img/img-ej1/8.png)
+![](img/img-ej1/8.png)
 
 ## 7. Probar el funcionamiento.
 Para visualizar lo que hemos estado haciendo ejecutamos los siguientes comandos:
@@ -73,7 +73,7 @@ bundle exec jekyll build
 bundle exec jekyll serve
 ```
 
-[](img/img-ej1/9.png)
+![](img/img-ej1/9.png)
 
-[](img/img-ej1/10.png)
+![](img/img-ej1/10.png)
 
